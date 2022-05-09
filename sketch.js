@@ -1,4 +1,4 @@
-let state;
+let state = 'title';
 
 //font
 let standardFont;
@@ -29,9 +29,6 @@ function setup() {
 
 function draw() {
   background(255, 161, 213);
-
-  state = 'title';
-
 
 
   //switch states
@@ -99,7 +96,7 @@ function title(){
 }
 
 function level1(){
-  background(20);
+  
 }
 
 //developer tool
